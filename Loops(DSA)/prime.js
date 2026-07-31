@@ -15,4 +15,4 @@ if (isNaN(n) || n <= 0) {
 	}
 }
 
-alert(n + " is prime: " + isPrime);
+console.log(n + " is prime: " + isPrime);
