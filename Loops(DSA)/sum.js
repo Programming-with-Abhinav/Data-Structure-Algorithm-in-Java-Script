@@ -19,12 +19,12 @@ let num = Number(prompt("Enter your Number"));
 if (isNaN(num) || num <= 0) {
     console.log("Error: Invalid Input");
 } else {
-    let reversed = 0
+    let sum = 0
 
     while(num > 0){
         let lastDigit = num % 10;
-        reversed = (reversed * 10) + lastDigit;
+        sum +=lastDigit;
         num = Math.floor(num / 10);
     }
-    console.log(reversed)
+    console.log(sum)
 }
